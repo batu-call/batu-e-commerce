@@ -1,0 +1,14 @@
+.shoes-image img{
+    width: 960px;
+    height: 640px;
+}
+.shoes-image {
+    margin-left: 110px;
+    width: 100%;
+}
+.shoes-container {
+    color: #c46e4d;
+}
+.collection-shoes {
+    color: #c46e4d;
+}

@@ -1,0 +1,133 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color:  #fffdfb;
+}
+.banner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #F5F5F4 ;
+}
+.container-banner-main {
+    color: #93745c;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    z-index: 1;
+    width: 30%;
+    background-color: #fcfefe;
+    height: 20vh;
+    padding: 20px;
+    border: 10px solid #f2f2f2;
+}
+.banner .container-image img{
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    border-radius: 20px;
+    opacity: 0.9;
+  }
+
+.container-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.container-container{
+    margin-left: 16px;
+    background-color: #dee1ec;
+    margin-top: 20px;
+    padding: 60px;
+    width: 272px;
+    height: auto;
+    border-radius: 20px;
+}
+.gender-container {
+    background-color: #dee1ec;
+    border: 2px solid #dee1ec;
+    box-shadow: 2px 2px 10px gray;
+    margin-bottom: 30px;
+    margin-top: 40px !important;
+    position: relative;
+    height: 450px;
+}
+.gender-product {
+    background-color: #F5F5F4;
+    margin-left: 0;
+    margin-top: 0;
+}
+.gender-product-title {
+    margin-top: 0 !important;
+}
+.product-title {
+    display: flex;
+    justify-content: center;
+    color: #dee1ec;
+    margin-top: 110px;
+}
+.product-slice{
+    display: flex;
+}
+.slice-container {
+    padding: 1px;
+    margin-left: 0;
+}
+.slice-image {
+    width: 160px;
+    height: 200px;
+    margin: 20px;
+}
+.collection-button{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    background-color: #fcfefe;
+    padding: 20px;
+    display: flex;
+}
+.button-image {
+    width: 120px;
+}
+.collection-button button {
+    padding: 6px;
+    width: 120px;
+    background-color: #fff;
+    border: 2px solid #F5F5F4;
+    cursor: pointer; 
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;   
+    font-weight: 900;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #93745c;
+    gap: 10px;
+    margin-top: 35px;
+}
+.gender-product-title-men {
+    color: #93745c;
+    margin-top: 0 !important;
+    padding: 20px;
+    background-color: #fcfefe;
+}
+.product-star {
+    color: black;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.gender_btn {
+    position: absolute;
+    left: 27%;
+    bottom: 4%;
+}
+.gender_btn {
+    width: 140px;
+}
+.gender-no-product {
+    color: #93745c;
+    padding: 20px;
+    display: inline-block;
+}

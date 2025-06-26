@@ -1,0 +1,84 @@
+.communication {
+    height: calc(100vh - 70px);
+    width: 100%;
+    background-color: #e7eaf6;
+    display: flex;
+}
+.com-card { 
+    background-color: #e7eaf6;
+    width: 60%;
+    justify-content: center;
+}
+.com-card-main {
+    background-color: #fcfefe;
+    height: 200px;
+    width: 500px;
+    color: #343434 ;
+    margin-top: 50px;
+    margin-left: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+.com-card-main h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.com-card-main span {
+    color: black;
+}
+.com-card-main h3 {
+    margin-top: 20px;
+}
+.com-maps {
+    background-color: #e7eaf6;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+.message {
+    background-color: #fcfefe;
+    width: 500px;
+    height: 690px;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    border-radius: 20px;
+}
+form {
+    margin-left: 26%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+input {
+   background-color: #fff;
+   height: 40px;
+   width: 220px;
+   color: black;
+   font-size: 17px;
+   font-family: 'Poppins',sans-serif;
+}
+.message h2 {
+    color: #343434;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.com-button button{
+    padding: 14px; 
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+    margin-left: 37px;
+    margin-top: 20px;
+    color: #343434;
+    background-color: #fff;
+    border: 2px solid #343434;
+    border-radius: 7px;
+    font-weight: 600;
+}
+.com-button button:hover {
+    background-color: #e7eaf6;
+}

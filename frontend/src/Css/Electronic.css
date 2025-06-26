@@ -1,0 +1,14 @@
+.electronic-image img{
+    width: 960px;
+    height: 640px;
+}
+.electronic-image {
+    margin-left: 110px;
+    width: 100%;
+}
+.electronic-container {
+    color: #948B85;
+}
+.collection-electronic button {
+    color: #948B85;
+}

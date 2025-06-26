@@ -1,0 +1,198 @@
+ .order {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 200;
+}
+.order form {
+    width: 520px;
+    height: 80vh;
+    margin-left: 25%;
+    border: 2px solid #fcfefe;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #fcfefe;
+    transition: all 0.3s ease;
+}
+.order h2 {
+    color: #343434;
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.order span {
+    color: #005689;
+    font-size: 19px;
+}
+
+.order-left {
+    width: 50%;
+    background-color: #fcfefe;
+    overflow-y: auto;
+    height: calc(100vh - 70px);
+}
+
+.order-left-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.order-product-main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.order-product-name {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #e7eaf6;
+    padding: 12px;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+}
+
+.order-image {
+    width: 120px;
+    height: 150px;
+}
+.order-left-description {
+    font-size: 14px;
+    color: #222831;
+    margin-top: 7px;
+}
+.order-left-name{
+    color: #222831;
+    font-size: 19px;
+}
+
+    /* ORDER RİGHT */ 
+
+.order-right {
+    width: 50%;
+    background-color: #e7eaf6;
+    position: relative;
+    overflow: hidden; 
+}
+
+.order-right-main {
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    border: 2px solid #fff;
+    display: flex;
+}
+.order-right-main p {
+    display: flex;
+    justify-content: center;
+}
+.order-right-name{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    box-sizing: border-box;
+    margin-left: 3%;
+    width: 280px;
+}
+.order-right-name p {
+    border-bottom:2px solid #606470;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.order-right-mail {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    box-sizing: border-box;
+    margin-left: 12%;
+    width: 280px;
+}
+.order-right-mail p {
+    border-bottom: 2px solid #606470;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.order-right-mail label {
+    margin-top: 20px;
+}
+
+.order-address,
+.order-country {
+    border: 2px solid #606470;
+    width: 280px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #606470;
+    outline: none;
+    background-color: #e7eaf6;
+
+}
+.order-city,
+.order-postal
+{
+    width: 280px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #606470;
+    display: flex;
+    background-color: #e7eaf6;
+    margin-top: 12px;
+}
+
+.order-country {
+    height: 42px;
+    cursor: pointer;
+    display: flex;
+}
+
+.order-right-address,
+.order-right-postal-main {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+    justify-content: center;
+    margin-left: 23%;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+}
+.order-right-address {
+    margin-top: 80px;
+}
+
+.order-right-address-main {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.order-button {
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    border: 1px solid #e7eaf6;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    background-color: #005689;
+    padding: 2px;
+    margin-left: 120px;
+}
+
+.order-button:hover {
+    box-shadow: 4px 2px 10px #ededed;
+    color: #fcfefe;
+}
+.order-total-price {
+    width: 220px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    margin-left: 18%;
+}

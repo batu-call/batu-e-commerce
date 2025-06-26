@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    font-size: 19px;
+    font-family: 'Poppins',sans-serifs;
+    line-height: 1.2;
+    height: calc(100vh - 70px);
+}
+.about img {
+    width: 50%;
+}
+.about-left {
+    position: absolute;
+    top: 400px;
+    width: 300px;
+    height: 300px;
+    left: 16%;
+    top: 21%;
+}
+.about-right {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 69%;
+    top: 21%;
+}
+.about h2 {
+    color: #36c186;
+    margin-bottom: 12px;
+}
+.about span {
+    color: #99ddcc;
+}
